@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>QueueFlow | Smart Hospital Queue System</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<header>
+
+<div class="logo">
+🏥 <span>QueueFlow</span>
+</div>
+
+<nav id="nav">
+
+<a href="#home">Home</a>
+<a href="#services">Services</a>
+<a href="#doctors">Doctors</a>
+<a href="#booking">Booking</a>
+<a href="#queue">Queue</a>
+<a href="#dashboard">Dashboard</a>
+<a href="#analytics">Analytics</a>
+<a href="#contact">Contact</a>
+
+</nav>
+
+<div class="nav-right">
+
+<select id="language">
+<option value="en">English</option>
+<option value="hi">हिन्दी</option>
+<option value="ta">தமிழ்</option>
+<option value="te">తెలుగు</option>
+<option value="bn">বাংলা</option>
+</select>
+
+<button id="loginBtn" class="primary">
+Login
+</button>
+
+</div>
+
+<div id="menuBtn">
+☰
+</div>
+
+</header>
+
+<!-- HERO -->
+
+<section class="hero" id="home">
+
+<div class="hero-left">
+
+<h1>Your Health,<br>Our Priority.</h1>
+
+<p>
+
+Book appointments, monitor queues and manage healthcare efficiently with QueueFlow.
+
+</p>
+
+<div class="hero-buttons">
+
+<button class="primary">
+Book Appointment
+</button>
+
+<button class="secondary">
+Live Queue
+</button>
+
+</div>
+
+<div class="stats">
+
+<div>
+
+<h2>50+</h2>
+
+<p>Doctors</p>
+
+</div>
+
+<div>
+
+<h2>20K+</h2>
+
+<p>Patients</p>
+
+</div>
+
+<div>
+
+<h2>15+</h2>
+
+<p>Specialties</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="hero-right">
+
+<div class="floating-card">
+
+<h3>24×7 Emergency</h3>
+
+<p>Always Available</p>
+
+</div>
+
+<div class="floating-card">
+
+<h3>Verified Doctors</h3>
+
+<p>Experienced Specialists</p>
+
+</div>
+
+<div class="floating-card">
+
+<h3>Live Queue</h3>
+
+<p>Real Time Updates</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- SERVICES -->
+
+<section id="services">
+
+<h2 class="section-title">
+Our Services
+</h2>
+
+<div class="grid">
+
+<div class="card service">
+
+<h3>General Medicine</h3>
+
+<p>Routine health consultation.</p>
+
+<button>Book</button>
+
+</div>
+
+<div class="card service">
+
+<h3>Cardiology</h3>
+
+<p>Heart specialists.</p>
+
+<button>Book</button>
+
+</div>
+
+<div class="card service">
+
+<h3>Emergency Care</h3>
+
+<p>24×7 emergency services.</p>
+
+<button>Book</button>
+
+</div>
+
+<div class="card service">
+
+<h3>Pediatrics</h3>
+
+<p>Child specialists.</p>
+
+<button>Book</button>
+
+</div>
+
+<div class="card service">
+
+<h3>Neurology</h3>
+
+<p>Brain & nervous system.</p>
+
+<button>Book</button>
+
+</div>
+
+<div class="card service">
+
+<h3>Orthopedics</h3>
+
+<p>Bone & joints.</p>
+
+<button>Book</button>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- DOCTORS -->
+
+<section id="doctors">
+
+<h2 class="section-title">
+
+Meet Our Doctors
+
+</h2>
+
+<div class="grid">
+
+<div class="card doctor">
+
+<img src="https://via.placeholder.com/120" alt="doctor">
+
+<h3>Dr. A. Sharma</h3>
+
+<p>Cardiologist</p>
+
+<span>⭐ 4.9</span>
+
+</div>
+
+<div class="card doctor">
+
+<img src="https://via.placeholder.com/120" alt="doctor">
+
+<h3>Dr. R. Kumar</h3>
+
+<p>General Physician</p>
+
+<span>⭐ 4.8</span>
+
+</div>
+
+<div class="card doctor">
+
+<img src="https://via.placeholder.com/120" alt="doctor">
+
+<h3>Dr. Meena</h3>
+
+<p>Pediatrician</p>
+
+<span>⭐ 4.9</span>
+
+</div>
+
+<div class="card doctor">
+
+<img src="https://via.placeholder.com/120" alt="doctor">
+
+<h3>Dr. Surya</h3>
+
+<p>Neurologist</p>
+
+<span>⭐ 4.8</span>
+
+</div>
+
+</div>
+
+</section>
+<!-- ABOUT -->
+
+<section id="about">
+
+<h2 class="section-title">About QueueFlow</h2>
+
+<div class="about">
+
+<div>
+
+<h3>Trusted Healthcare Since 1995</h3>
+
+<p>
+
+QueueFlow helps hospitals manage appointments and patient queues efficiently.
+
+Our mission is to reduce waiting time while improving patient experience through a
+
+simple digital platform.
+
+</p>
+
+<ul>
+
+<li>✔ 50+ Expert Doctors</li>
+
+<li>✔ 24×7 Emergency</li>
+
+<li>✔ Online Appointment Booking</li>
+
+<li>✔ Live Queue Tracking</li>
+
+</ul>
+
+</div>
+
+<div class="about-card">
+
+<h2>98%</h2>
+
+<p>Patient Satisfaction</p>
+
+<h2>25+</h2>
+
+<p>Years of Service</p>
+
+<h2>50K+</h2>
+
+<p>Successful Treatments</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- BOOKING -->
+
+<section id="booking">
+
+<h2 class="section-title">Book Appointment</h2>
+
+<div class="booking-card">
+
+<form id="bookingForm">
+
+<input type="text" id="name" placeholder="Full Name" required>
+
+<input type="email" id="email" placeholder="Email" required>
+
+<input type="tel" id="phone" placeholder="Phone Number" required>
+
+<select id="service">
+
+<option>General Medicine</option>
+
+<option>Cardiology</option>
+
+<option>Emergency</option>
+
+<option>Pediatrics</option>
+
+<option>Neurology</option>
+
+<option>Orthopedics</option>
+
+</select>
+
+<select id="doctor">
+
+<option>Dr. Sharma</option>
+
+<option>Dr. Kumar</option>
+
+<option>Dr. Meena</option>
+
+<option>Dr. Surya</option>
+
+</select>
+
+<input type="date" id="date">
+
+<input type="time" id="time">
+
+<button class="primary" type="submit">
+
+Confirm Booking
+
+</button>
+
+</form>
+
+</div>
+
+</section>
+
+<!-- LIVE QUEUE -->
+
+<section id="queue">
+
+<h2 class="section-title">
+
+Current Queue
+
+</h2>
+
+<div class="queue-controls">
+
+<button id="callNext" class="primary">
+
+Call Next
+
+</button>
+
+<button id="skipPatient" class="secondary">
+
+Skip
+
+</button>
+
+<button id="completePatient">
+
+Complete
+
+</button>
+
+</div>
+
+<ul id="queueList">
+
+<li>Rahul - Cardiology</li>
+
+<li>Anita - Pediatrics</li>
+
+<li>Vikas - Neurology</li>
+
+</ul>
+
+</section>
+
+<!-- DASHBOARD -->
+
+<section id="dashboard">
+
+<h2 class="section-title">
+
+Reception Dashboard
+
+</h2>
+
+<div class="dashboard-grid">
+
+<div class="card">
+
+<h3 id="appointmentsCount">
+
+25
+
+</h3>
+
+<p>Appointments</p>
+
+</div>
+
+<div class="card">
+
+<h3 id="waitingCount">
+
+8
+
+</h3>
+
+<p>Waiting</p>
+
+</div>
+
+<div class="card">
+
+<h3>
+
+94%
+
+</h3>
+
+<p>Completion Rate</p>
+
+</div>
+
+<div class="card">
+
+<h3>
+
+₹32,500
+
+</h3>
+
+<p>Today's Revenue</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ANALYTICS -->
+
+<section id="analytics">
+
+<h2 class="section-title">
+
+Analytics
+
+</h2>
+
+<div class="dashboard-grid">
+
+<div class="card">
+
+<h3>Appointments</h3>
+
+<div class="bar">
+
+<div class="fill" style="width:80%"></div>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<h3>Cardiology</h3>
+
+<div class="bar">
+
+<div class="fill" style="width:65%"></div>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<h3>General Medicine</h3>
+
+<div class="bar">
+
+<div class="fill" style="width:90%"></div>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<h3>Emergency</h3>
+
+<div class="bar">
+
+<div class="fill" style="width:75%"></div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact">
+
+<h2 class="section-title">
+
+Contact Us
+
+</h2>
+
+<form id="contactForm">
+
+<input type="text" placeholder="Name">
+
+<input type="email" placeholder="Email">
+
+<input type="text" placeholder="Subject">
+
+<textarea placeholder="Message"></textarea>
+
+<button class="primary">
+
+Send Message
+
+</button>
+
+</form>
+
+</section>
+
+<!-- LOGIN MODAL -->
+
+<div id="loginModal" class="modal">
+
+<div class="modal-content">
+
+<span id="closeLogin">&times;</span>
+
+<h2>Login</h2>
+
+<input type="text" id="username" placeholder="Username">
+
+<input type="password" id="password" placeholder="Password">
+
+<select id="role">
+
+<option>Patient</option>
+
+<option>Receptionist</option>
+
+<option>Admin</option>
+
+</select>
+
+<button id="loginSubmit" class="primary">
+
+Login
+
+</button>
+
+</div>
+
+</div>
+
+<footer>
+
+<p>
+
+© 2026 QueueFlow. All Rights Reserved.
+
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
